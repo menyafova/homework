@@ -1,0 +1,30 @@
+.pr{
+position: relative;
+background: #FF00FF ;
+width: 250px;
+height: 150px; 
+float: center; 
+margin: 100px auto;
+padding: 0px;
+}
+
+.a{
+float:left;
+background: red;
+width: 115px;
+height: 130px; 
+
+margin: 10px 10px; 
+
+}
+
+.b{
+position: absolute;
+float:left;
+margin: 10px -10px; 
+background: green;
+width: 115px;
+height: 130px; 
+display:inline-block;
+
+}

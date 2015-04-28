@@ -1,0 +1,117 @@
+﻿body
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.clear-right
+{
+	clear: right;
+}
+
+.clear-left
+{
+	clear: left;
+}
+
+
+
+a:link {
+	color: #000000;
+}
+
+a:visited {
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+
+
+.container { 
+background:#f3f3f4; 
+width:1024px;
+height:900px; 
+float:center; 
+padding: 10px 30px 10px 30px;
+margin: 20px auto;
+box-shadow: 3px 2px 12px #999;
+-moz-box-shadow: 3px 2px 12px #999;
+-wekit-box-shadow: 3px 2px 12px #999;
+-o-box-shadow: 3px 2px 12px #999;
+}
+
+header { height:470px; width:100%;}
+a.logotype { float:left;}
+
+sidebar {
+margin-top: 30px; /*отступ сверху данного блока от предыдущего*/
+height:200px;
+width:400px;
+float:left;
+padding-top: 10px;
+}
+ 
+nav { float:left; margin:15px 0px 0px 20px;}
+nav ul { list-style:none; }
+nav li { display:inline;}
+nav li a { font-size:17px; padding:10px 0px 2px 0px; margin:0px 15px; text-decoration:none;}
+nav li a:hover { border-bottom:2px #F80 solid;}
+
+ul, li{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.vipad_menu li {
+  background: #d3d3d3;
+  border-right: 1px solid #FFFFFF;
+  float: left;                                   /* горизонтальное меню*/
+  height: 30px;
+ 
+}
+
+ul.vipad_menu li a {
+  text-decoration: none; /*убираем подчеркивание*/
+color: #ff00dd; /*цвет ссылок*/
+  display: block; /*делаем ссылки блоками*/
+/*white-space: nowrap;
+min-width: 50px;*/
+  padding: 5px 5px 5px 15px;
+}
+
+ul.vipad_menu li ul {
+position: absolute;
+  display: none;	/*скрываем вложенные пункты*/
+}
+
+ul.vipad_menu li:hover {
+display: block;
+  background: yellow;
+}
+    /*Выпадающее меню*/
+ul.vipad_menu {
+  position: relative;
+  background: #B3B3FF;
+  height: 30px;
+  width: 800px;
+}
+ul.vipad_menu li:hover > ul {
+  background: #D0E0FF;
+  border-top: 1px solid white;
+  display: block;
+  width: 600px;
+  position: absolute;
+  top: 30px; 
+  left: 0;
+}
+
+
+
