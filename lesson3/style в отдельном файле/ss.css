@@ -1,0 +1,105 @@
+body
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.clear-right
+{
+	clear: right;
+}
+
+.clear-left
+{
+	clear: left;
+}
+
+.struct
+{
+	font-family: Garamond, "Times New Roman" , serif;
+	font-size: 20px;
+	text-align: left;
+	padding: 10px 30px 10px 30px;
+	margin: 20px auto;
+	border: 4px solid #000;
+	height: 1050px;
+	width: 950px;
+}
+
+
+#menu 
+{
+	padding: 0; width: 800px; margin: 0 auto;
+}
+
+#menu ul 
+{
+	list-style: none; margin: 0; padding: 0;
+}
+
+#menu li 
+{
+	display: inline;
+}
+
+#menu a 
+{
+	float: left;
+	width: 180px;
+	height: 30px;
+	background-color: #cc00ff;
+	padding: 10px 10px 10px 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	color: #ffffff;
+	
+}	
+
+
+.rs
+{
+	margin-top: 0px;
+	padding: 10px 30px 10px 30px;
+	float: left;
+}
+
+.rs UL OL 
+{
+	list-style-type: none;
+}
+
+.rs UL  OL LI
+{
+	background: url("1.gif") 0 0 no-repeat;
+	padding: 0px 0px 0px 18px;
+}
+
+.rs1
+{
+	float: left;
+	margin-top: 0px;
+	padding: 10px 30px 10px 30px;
+}
+
+.rs2
+{
+	float: left;
+	margin-top: 0px;
+	padding: 10px 30px 10px 30px;
+	
+}
+
+.rs3
+{
+	float: left;
+	margin-top: 0px;
+	padding: 10px 30px 10px 0px;
+	
+}
